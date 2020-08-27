@@ -1,0 +1,21 @@
+{
+  "name": "nodeserver",
+  "homepage": "https://Rajes42.github.io/ChatApp",
+  "version": "1.0.0",
+  "description": "node server for chat app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nodemon": "./node_modules/.bin/nodemon"
+  },
+  "author": "Rajesh42",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
